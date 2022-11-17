@@ -23,6 +23,7 @@ body{
    display: flex;
    flex-direction: column;
    justify-content: space-evenly;
+   position: relative;
 }
 .uname{
    text-align: center;
@@ -42,6 +43,7 @@ body{
    text-align: center;
 }
 .sc{
+   position: absolute;
    background-color: red;
    border: 2px solid black;
    box-shadow: 5px 5px 5px black;
@@ -49,4 +51,14 @@ body{
    text-align: center;
    color: white;
    font-size: xx-large;
+   left: 40%;
+   top: 80%;
+}
+#image{
+   display: none;
+   width: 100px;
+   height: 100px;
+   margin: auto;
+   border-radius: 20px;
+   box-shadow: 2px 2px 5px green;
 }
